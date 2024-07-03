@@ -30,11 +30,8 @@ for number in range(3):
 print('Heads:'+str(Headsnumber)+',Tails:'+str(Tailsnumber))
 
 if Headsnumber>Tailsnumber:
-    print('You won')
+    print(name+' won!')
 
 else:
-    print('You lost')
-    
-
-
+    print(name+' lost!')
 
