@@ -4,6 +4,7 @@ accept = 0
 Headsnumber = 0
 Tailsnumber = 0
 
+
 print('Tossing a coin...')
 
 for number in range(3):
@@ -21,5 +22,13 @@ for number in range(3):
     count += 1
 
 print('Heads:'+str(Headsnumber)+',Tails:'+str(Tailsnumber))
+
+if Headsnumber>Tailsnumber:
+    print('You won')
+
+else:
+    print('You lost')
+    
+
 
 
