@@ -4,6 +4,12 @@ accept = 0
 Headsnumber = 0
 Tailsnumber = 0
 
+print('Who are you?')
+
+name = input()
+
+print('Hello,'+name+'!')
+
 print('Tossing a coin...')
 
 for number in range(3):
